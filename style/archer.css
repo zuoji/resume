@@ -7,6 +7,7 @@ html,body{
     height: 100%;
     overflow: hidden;
     font-size: 120px;
+    background: #1e243a;
 }
 @media screen and (max-width:321px) {
     html,body{
@@ -33,7 +34,7 @@ html,body{
     background: #1e243a;
 }
 .slide1 .bg{
-    height:2.4rem;
+    height:2rem;
     width: 100%;
     background: url("../images/banner1.jpg") no-repeat center top;
     background-size: 100%;
@@ -44,7 +45,7 @@ html,body{
 }
 .slide1 .s1{
     text-align: center;
-    margin-top:2rem;
+    margin-top:1.6rem;
     position: relative;
     z-index:1;
 }
@@ -105,8 +106,8 @@ html,body{
 }
 .slide2 img:nth-child(5){
     right: 0.2rem;
-    top:2.5rem;
-    width: 1.3rem;
+    top:2.35rem;
+    width: 1.2rem;
     opacity: 0;
 }
 .slide3{
