@@ -123,11 +123,11 @@ html,body{
 }
 .slide3 dl{
     border-bottom: solid 1px #626262;
-    padding:0.1em 0;
+    padding:15px 0;
 }
 .slide3 dl dt{
-    width: .4em;
-    height:.4em;
+    width: 40px;
+    height:40px;
     float: left;
 }
 .slide3 dl dd{ color: #fff; margin-left: 30px;}
