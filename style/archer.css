@@ -62,18 +62,19 @@ html,body{
 .slide1 dl dt{
     color: #2bfcd4;
     font-weight: bold;
-    font-size: 0.15rem;
+    font-size: 0.3rem;
 }
 .slide1 dl dd{
     padding: 0;
+    font-size: 0.26rem;
 }
 .slide1 dl dd span{
     display: inline-block;
     width: 50%;
     color: #cfd1d1;
     float: left;
-    height: 0.3rem;
-    line-height: 0.3rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
 }
 .slide2{
     background: url("../images/slide2-bg.png") no-repeat center top #404040;
@@ -122,11 +123,11 @@ html,body{
 }
 .slide3 dl{
     border-bottom: solid 1px #626262;
-    padding:10px 0;
+    padding:0.1em 0;
 }
 .slide3 dl dt{
-    width: 20px;
-    height:20px;
+    width: .4em;
+    height:.4em;
     float: left;
 }
 .slide3 dl dd{ color: #fff; margin-left: 30px;}
