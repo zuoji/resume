@@ -14,7 +14,7 @@
 <div class="wrap">
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide1">
+            <div class="swiper-slide slide1"  id="slide1">
                 <div class="s1"><img src="images/touxiang.png" alt=""></div>
                 <div class="s2 w90">
                     <dl>
@@ -51,14 +51,14 @@
                 </div>
                 <div class="bg"></div>
             </div>
-            <div class="swiper-slide slide2">
+            <div class="swiper-slide slide2" id="slide2">
                 <img src="images/page3-text1.png" alt="">
                 <img src="images/page3-text2.png" alt="">
                 <img src="images/page3-text3.png" alt="">
                 <img src="images/page3-text4.png" alt="">
                 <img src="images/page3-text5.png" alt="">
             </div>
-            <div class="swiper-slide slide3">
+            <div class="swiper-slide slide3" id="slide3">
                  <div class="w70">
                      <dl id="d1">
                          <dt class="email"></dt>
@@ -89,6 +89,8 @@
     var array = document.getElementById("array");
     array.style.top = (winH - 40 ) + 'px';
     array.style.left = (winW - 20 )/2 + 'px';
+    document.documentElement.style.fontSize = winW / 640 * 100 + "px";
+
     var mySwiper = new Swiper(".swiper-container",{
         direction:"vertical",
         loop:false,
@@ -120,7 +122,7 @@
             slides[0].id = "page1";
         }
     });
-
+    mySwiper.height = winH + "px"
 </script>
 </body>
 </html>
