@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>web-前端 | 王作吉</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/swiper.min.css">
@@ -14,7 +14,7 @@
 <div class="wrap">
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide1"  id="slide1">
+            <div class="swiper-slide slide1">
                 <div class="s1"><img src="images/touxiang.png" alt=""></div>
                 <div class="s2 w90">
                     <dl>
@@ -51,14 +51,14 @@
                 </div>
                 <div class="bg"></div>
             </div>
-            <div class="swiper-slide slide2" id="slide2">
+            <div class="swiper-slide slide2">
                 <img src="images/page3-text1.png" alt="">
                 <img src="images/page3-text2.png" alt="">
                 <img src="images/page3-text3.png" alt="">
                 <img src="images/page3-text4.png" alt="">
                 <img src="images/page3-text5.png" alt="">
             </div>
-            <div class="swiper-slide slide3" id="slide3">
+            <div class="swiper-slide slide3">
                  <div class="w70">
                      <dl id="d1">
                          <dt class="email"></dt>
@@ -120,6 +120,7 @@
         onInit:function (swiper) {
             var slides = swiper.slides;
             slides[0].id = "page1";
+            /*slides[0].style.height = slides[1].style.height = slides[2].style.height = winH + "px";*/
         }
     });
 </script>
