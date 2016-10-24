@@ -14,6 +14,12 @@ html,body{
         font-size: 100px;
     }
 }
+.clearFix::after{
+    display: block;
+    height:0;
+    content:"";
+    clear:both;
+}
 .w90{
     width: 90%;
     margin: 0 auto;
@@ -27,6 +33,9 @@ html,body{
     font-size: 14px;
 }
 .swiper-container{}
+.swiper-wrapper{
+    width:100%;
+}
 .slide1{
     width: 100%;
     height:100%;
@@ -147,6 +156,24 @@ html,body{
     z-index: 999;
     -webkit-animation: start 1.5s infinite ease-in-out;
 }
+@-webkit-keyframes start {
+    0%, 30% {
+        opacity: 0;
+        -webkit-transform: translate(0,10px);
+        transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0,-8px);
+        transform: translate(0,-8px);
+    }
+}
+
 @keyframes start {
     0%, 30% {
         opacity: 0;
