@@ -126,11 +126,11 @@ html,body{
     padding:15px 0;
 }
 .slide3 dl dt{
-    width: 40px;
-    height:40px;
+    width: 20px;
+    height:20px;
     float: left;
 }
-.slide3 dl dd{ color: #fff; margin-left: 30px;}
+.slide3 dl dd{ color: #fff; margin-left: 30px; font-size: 26px}
 .slide3 dl dd a{ color: #fff; text-decoration: none;}
 .slide3 dl dt.email{
     background: url("../images/icon_email.png") no-repeat center center;
